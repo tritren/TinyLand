@@ -2,10 +2,10 @@
 <html lang="en">
   <head>  
     <title>Eva's TinyLand</title>
-    <?php require_once('C:/xampp/htdocs/tinyland/head.php'); ?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'].'/head.php';?>
   </head>
   <body>
     <h1>Hello, New version!</h1>
-    <script src="bootstrap.min.js/"></script>
+    <script src="bootstrap.min.js"></script>
   </body>
 </html>
