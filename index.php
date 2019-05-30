@@ -7,6 +7,6 @@
     <?php require_once $_SERVER['DOCUMENT_ROOT'].'/head.php';?>
   </head>
   <body>
-    <h1>Hello, New version!</h1>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'].'/header.php';?>
   </body>
 </html>
