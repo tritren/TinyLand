@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>  
     <title>Eva's TinyLand</title>
     <?php require_once $_SERVER['DOCUMENT_ROOT'].'/head.php';?>
