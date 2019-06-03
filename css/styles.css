@@ -7,27 +7,37 @@ body {
     line-height: 1.75;
     font-size: 16px;
     color: #404142;
-    overflow-x: hidden;
+    
     opacity: 1;
     font: 400 16px osr,Arial,Helvetica,sans-serif;
 }
 
 /* header */
-.header{
+header{
     background: #F0F1F4; 
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    display: table;
+    width: 100%;
+    padding: 13px 0px;
+}
+header .fa {
+    color: #5555AA;
+    padding-right: 10px;
 }
 
-.fa {
-	color: #4836B1;
+a {
+    text-decoration: none;
+    color: #404142;
+} 
+a::active {
+    color: #5555AA; 
+   } 
+a:hover {
+    color: #5555AA; 
+    text-decoration: none;
 }
-span {
-	color: #352781;
 
-}
-
-.header a:hover {
-	text-decoration: none;
+/* navigation */
+.navbar-brand img{
+    width: 170px;
+    height: 55px;
 }

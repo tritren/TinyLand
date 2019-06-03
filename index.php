@@ -7,11 +7,8 @@
     <?php require_once $_SERVER['DOCUMENT_ROOT'].'/head.php';?>
   </head>
   <body>
-    <header>
       <?php require_once $_SERVER['DOCUMENT_ROOT'].'/header.php';?>
       <?php require_once $_SERVER['DOCUMENT_ROOT'].'/navigation.php';?>
       <?php require_once $_SERVER['DOCUMENT_ROOT'].'/map.php';?>
-    </header>
-   
   </body>
 </html>
