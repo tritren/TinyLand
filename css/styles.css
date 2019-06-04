@@ -28,7 +28,23 @@ color: #5555AA;
 text-decoration: none;
 }
 
+
+
+
+/* map */
+.map {
+    background: #F0F1F4;
+}
+
+
+
+
+
 /* navigation */
+ nav {
+      background: #F0F1F4;
+ }
+
 .navbar-brand img{
     width: 170px;
     height: 55px;
