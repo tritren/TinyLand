@@ -7,7 +7,7 @@
 			<div class="d-none col-sm location d-sm-flex align-items-center">
 				<i class="fa fa-map-marker fa-lg" aria-hidden="true"></i><span> ул. Шугаева, 17<br>метро Уручье</span>
 			</div>
-			<div class="d-none col-sm clok clock d-sm-flex align-items-center">
+			<div class="d-none col-md clok clock d-md-flex align-items-center">
 				<i class="fa fa-clock-o fa-lg" aria-hidden="true"></i><span>  Пн - Сб: 9:30 - 20:00</span>
 			</div>
 			<div class="col-5 col-sm d-flex align-items-center justify-content-end socialNetwork">

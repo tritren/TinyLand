@@ -1,21 +1,16 @@
 /* body */
 body {
-	background-color: #ffffff;
     height: 100%;
     min-width: 320px;
     position: relative;
     line-height: 1.75;
-    font-size: 16px;
     color: #404142;
-    
-    opacity: 1;
     font: 400 16px osr,Arial,Helvetica,sans-serif;
 }
 
 /* header */
 header{
     background: #F0F1F4; 
-    display: table;
     width: 100%;
     padding: 13px 0px;
 }
@@ -28,16 +23,24 @@ a {
     text-decoration: none;
     color: #404142;
 } 
-a::active {
-    color: #5555AA; 
-   } 
-a:hover {
-    color: #5555AA; 
-    text-decoration: none;
+a:hover, a:active {
+color: #5555AA;
+text-decoration: none;
 }
 
 /* navigation */
 .navbar-brand img{
     width: 170px;
     height: 55px;
+}
+
+.navbar ul li a {
+    padding: 7px 15px;
+    float: left;
+    color: #404142;
+    text-transform: uppercase;
+    font-size: .85em;
+    margin-left: 15px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
 }

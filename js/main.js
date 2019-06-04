@@ -1,3 +1,3 @@
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();   
+$('.dropdown-toggle').click(function() {
+$(this).dropdown('toggle');
 });
