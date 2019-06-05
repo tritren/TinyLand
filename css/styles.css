@@ -24,27 +24,45 @@ a {
     color: #404142;
 } 
 a:hover, a:active {
-color: #5555AA;
-text-decoration: none;
+    color: #5555AA;
+    text-decoration: none;
 }
 
 /* navigation */
- nav {
-      background: #F0F1F4;
- }
 
 .navbar-brand img{
     width: 170px;
     height: 55px;
 }
-
-.navbar ul li a {
-    padding: 7px 15px;
-    float: left;
+.navbar {
     color: #404142;
-    text-transform: uppercase;
+}
+.navbar ul li a {
+    color: #404142;
     font-size: .85em;
     margin-left: 15px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 10px
+}
+
+li a.active {
+    background-color: #FF6600;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #FF6600;
+    color: white;
+}
+
+nav .fa {
+    color: #5555AA;
+    border-color: #5555AA;
+}
+.navbar-toggler {
+     border-color: #5555AA;
 }
