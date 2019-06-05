@@ -8,7 +8,5 @@
   </head>
   <body>
       <?php require_once $_SERVER['DOCUMENT_ROOT'].'/header.php';?>
-      <?php require_once $_SERVER['DOCUMENT_ROOT'].'/navigation.php';?>
-      <?php require_once $_SERVER['DOCUMENT_ROOT'].'/map.php';?>
   </body>
 </html>
