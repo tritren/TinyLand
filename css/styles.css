@@ -1,0 +1,62 @@
+/* body */
+body {
+    height: 100%;
+    min-width: 320px;
+    position: relative;
+    line-height: 1.75;
+    color: #404142;
+    font: 400 16px osr,Arial,Helvetica,sans-serif;
+}
+
+/* header */
+header{
+    background: #F0F1F4; 
+    width: 100%;
+    padding: 13px 0px;
+}
+header .fa {
+    color: #5555AA;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #404142;
+} 
+a:hover, a:active {
+color: #5555AA;
+text-decoration: none;
+}
+
+
+
+
+/* map */
+.map {
+    background: #F0F1F4;
+}
+
+
+
+
+
+/* navigation */
+ nav {
+      background: #F0F1F4;
+ }
+
+.navbar-brand img{
+    width: 170px;
+    height: 55px;
+}
+
+.navbar ul li a {
+    padding: 7px 15px;
+    float: left;
+    color: #404142;
+    text-transform: uppercase;
+    font-size: .85em;
+    margin-left: 15px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
