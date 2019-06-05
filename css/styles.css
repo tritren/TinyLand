@@ -60,3 +60,10 @@ text-decoration: none;
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
+
+/* fppter */
+
+.footer {
+    position: relative;
+    padding-top: 50px;
+}
