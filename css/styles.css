@@ -22,10 +22,14 @@ header .fa {
 a {
     text-decoration: none;
     color: #404142;
+
 } 
 a:hover, a:active {
 color: #5555AA;
 text-decoration: none;
 }
 
-
+/* map */
+.map .col {
+	padding:0;
+}
