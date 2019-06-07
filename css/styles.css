@@ -35,6 +35,19 @@ text-decoration: none;
 }
 
 /* footer*/
-.footer .row {
-    margin-top: 30px;
+.footer{ 
+    padding-top: 30px;
+ 
 }
+.footerLogo img {
+    width: 170x;
+    height: 131px;
+    text-align: right;
+}
+.footerFriends img {
+    width: 200px;
+    height: 47px;
+}
+h2 {
+    color: #5555AA;
+    }
