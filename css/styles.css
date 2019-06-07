@@ -33,3 +33,8 @@ text-decoration: none;
 .map .col {
 	padding:0;
 }
+
+/* footer*/
+.footer .row {
+    margin-top: 30px;
+}
