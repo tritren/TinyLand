@@ -1,8 +1,8 @@
 <div class="footer">
 	<div class="container">
 		<div class="row ">
-			<div class="col-4">
-				<div class="footerPhoneNumber d-flex align-items-center">
+			<div class="col-4 d-sm-flex align-items-start justify-content-start">
+				<div class="footerPhoneNumber">
 					<a href="tel:+375297082921"><i class="fa fa-phone" aria-hidden="true"></i><span>+375297082921</span></a>
 				</div>
 				<div class="footerLocation">
@@ -12,10 +12,10 @@
 					<i class="fa fa-clock-o" aria-hidden="true"></i><span>Пн - Сб: 9:30 - 20:00</span>
 				</div>
 			</div>
-			<div class="col-4 footerSocialNetwork d-flex  justify-content-center">
+			<div class="col-4 footerSocialNetwork">
 				<a href="https://www.instagram.com/evastinyland/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i><span></span></a>
 			</div>
-			<div class="col-4 footerLogo d-flex align-items-center justify-content-end ">
+			<div class="col-4 d-flex justify-content-end footerLogo">
 				<a href="http://tinyland.by"><img src="img/footerlogo.svg"></a>
 			</div>
 			<div class="col footerFriends">
