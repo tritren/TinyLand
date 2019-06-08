@@ -7,7 +7,6 @@ body {
     color: #404142;
     font: 400 16px osr,Arial,Helvetica,sans-serif;
 }
-
 /* header */
 header{
     background: #F0F1F4; 
@@ -18,33 +17,49 @@ header .fa {
     color: #5555AA;
     padding-right: 10px;
 }
-
 a {
     text-decoration: none;
     color: #404142;
-
 } 
 a:hover, a:active {
 color: #5555AA;
 text-decoration: none;
 }
-
 /* map */
 .map .col {
 	padding:0;
 }
-
 /* footer*/
+@media only screen and (min-width: 769px) {
+    .footerSocialNetwork a:hover, a:active{
+    color: #5555AA;
+    }
+}
 .footer{ 
     padding-top: 30px;
- 
 }
 .footerLogo img {
-    width: 170px;
-    height: 131px;
-    text-align: right;
+    width: 165px;
+    height: 110px;
 }
 .footerFriends img {
     width: 200px;
     height: 47px;
+}
+.contactDetails i {
+    color: #5555AA;
+    width: 30px;
+}
+.contactDetails div {
+    padding-bottom: 10px;
+}
+.footerSocialNetwork a {
+    color: #A9A9A9;
+} 
+.footerSocialNetwork a:active {
+    color: #5555AA;
+}
+.footerFriends span {
+    color: #5555AA;
+    font: 700 24px 'Caveat', cursive;
 }
