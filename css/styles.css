@@ -60,10 +60,6 @@ nav .fa {
     border-color: #5555AA;
 }
 
-.navbar-toggler {
-     border-color: #5555AA;
-}
-
 @media only screen and (max-width: 768px) {
     li a.active {
         background-color:  #fff;
