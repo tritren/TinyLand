@@ -34,6 +34,12 @@ a:hover, a:active {
 }
 
 /* navigation */
+@media only screen and (min-width: 769px) {
+    li a.active, li a:hover:not(.active) {
+        background-color: #FF6600;
+        color: white;
+    }
+}
 .navbar-brand img{
     width: 170px;
     height: 55px;
@@ -49,28 +55,11 @@ a:hover, a:active {
     text-align: center;
     text-decoration: none;
 }
-
-li a.active, li a:hover:not(.active) {
-background-color: #FF6600;
-color: white;
+li a:active {
+    background-color:  #CAECFB;
+    color: #4E4E50;
 }
-
 nav .fa {
     color: #5555AA;
     border-color: #5555AA;
 }
-
-@media only screen and (max-width: 768px) {
-    li a.active {
-        background-color:  #fff;
-        color: #4E4E50;
-    }
-     li a:hover {
-        background-color:  #CAECFB;
-        color: #4E4E50;
-    }
-    li a:hover:not(.active) {
-        background-color: #CAECFB;
-        color: #4E4E50;
-}
- }
