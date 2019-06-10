@@ -7,60 +7,120 @@ body {
     color: #404142;
     font: 400 16px osr,Arial,Helvetica,sans-serif;
 }
+
 /* header */
 header{
     background: #F0F1F4; 
     width: 100%;
     padding: 13px 0px;
 }
+
 header .fa {
     color: #5555AA;
     padding-right: 10px;
 }
+
 a {
     text-decoration: none;
     color: #404142;
 } 
+
 a:hover, a:active {
-color: #5555AA;
-text-decoration: none;
+    color: #5555AA;
+    text-decoration: none;
 }
+
 /* map */
 .map .col {
 	padding:0;
 }
-/* footer*/
-@media only screen and (min-width: 769px) {
-    .footerSocialNetwork a:hover, a:active{
-    color: #5555AA;
-    }
+
+/* navigation */
+.navbar-toggler {
+    border-color: #5555AA;
 }
+
+.navbar-brand img{
+    width: 170px;
+    height: 55px;
+}
+
+.navbar {
+    color: #404142;
+}
+
+.navbar ul li a {
+    font-size: .85em;
+    margin-left: 15px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:active {
+    background-color:  #CAECFB;
+    color: #4E4E50;
+}
+
+nav .fa {
+    color: #5555AA;
+}
+
+/* footer*/
 .footer{ 
     padding-top: 20px;
     position: relative;
 }
+
 .footerLogo img {
     width: 165px;
     height: 110px;
 }
+
 .footerFriends img {
-    width: 200px;
-    height: 47px;
+    width: 190px;
+    height: 42px;
 }
+
 .contactDetails i {
     color: #5555AA;
-    width: 30px;
+    width: 20px;
 }
-.contactDetails div {
-    padding-bottom: 10px;
+
+.footerPhoneNumber, .footerLocation, .footerClock {
+   padding-bottom: 10px;
 }
+
 .footerSocialNetwork a {
     color: #A9A9A9;
 } 
+
 .footerSocialNetwork a:active {
     color: #5555AA;
 }
-.footerFriends span {
+
+.footerFriends {
+    color: #5555AA;   
+}
+
+.footerSocialNetwork span {
+    font: 400 24px 'Satisfy', cursive;
+}
+
+.footerSocialNetwork .fa{
+    padding-left: 25px;
+}
+
+@media only screen and (min-width: 769px) {              /*navigation*/
+    li a.active, li a:hover:not(.active) {
+        background-color: #FF6600;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 769px) {               /*footer*/
+    .footerSocialNetwork a:hover, a:active{
     color: #5555AA;
-    font: 700 24px 'Caveat', cursive;
+    }
 }
