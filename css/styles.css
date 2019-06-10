@@ -68,9 +68,10 @@ nav .fa {
 }
 
 /* footer*/
-.footer{ 
+footer { 
     padding-top: 20px;
     position: relative;
+    background: #F0F1F4;
 }
 
 .footerLogo img {
@@ -85,42 +86,36 @@ nav .fa {
 
 .contactDetails i {
     color: #5555AA;
-    width: 20px;
+    width: 20px; 
 }
 
 .footerPhoneNumber, .footerLocation, .footerClock {
-   padding-bottom: 10px;
+   margin-bottom: 10px;
 }
 
 .footerSocialNetwork a {
     color: #A9A9A9;
 } 
 
-.footerSocialNetwork a:active {
+.footerSocialNetwork a:active, .footerFriends {
     color: #5555AA;
-}
-
-.footerFriends {
-    color: #5555AA;   
 }
 
 .footerSocialNetwork span {
     font: 400 24px 'Satisfy', cursive;
 }
 
-.footerSocialNetwork .fa{
-    padding-left: 25px;
+.footerSocialNetwork .fa {
+    display: flex;
+    justify-content:center; 
 }
 
-@media only screen and (min-width: 769px) {              /*navigation*/
-    li a.active, li a:hover:not(.active) {
+@media only screen and (min-width: 769px) {
+    li a.active, li a:hover:not(.active) {  /*navigation*/
         background-color: #FF6600;
         color: white;
     }
-}
-
-@media only screen and (min-width: 769px) {               /*footer*/
-    .footerSocialNetwork a:hover, a:active{
+     .footerSocialNetwork a:hover, a:active {  /*footer*/
     color: #5555AA;
     }
 }
