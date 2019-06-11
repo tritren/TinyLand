@@ -69,9 +69,9 @@ nav .fa {
 
 /* footer*/
 footer { 
+    padding-bottom: 20px;
     padding-top: 20px;
-    position: relative;
-    background: #F0F1F4;
+    background: linear-gradient(to bottom, #F0F1F4, #fff);
 }
 
 .footerLogo img {
@@ -89,8 +89,9 @@ footer {
     width: 20px; 
 }
 
-.footerPhoneNumber, .footerLocation, .footerClock {
-   margin-bottom: 10px;
+.contactDetails, .footerLocation {
+    display: flex;
+    align-items: center;
 }
 
 .footerSocialNetwork a {
@@ -117,5 +118,13 @@ footer {
     }
      .footerSocialNetwork a:hover, a:active {  /*footer*/
     color: #5555AA;
+    }
+    .footerPhoneNumber, .footerLocation, .footerClock  {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .contactDetails {
+        display:block;
     }
 }
