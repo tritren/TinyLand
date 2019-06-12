@@ -13,8 +13,8 @@ header{
     background: #F0F1F4; 
     width: 100%;
     padding: 13px 0px;
-
 }
+
 header .fa {
     color: #5555AA;
     padding-right: 10px;
@@ -39,6 +39,7 @@ a:hover, a:active {
 .navbar-toggler {
     border-color: #5555AA;
 }
+
 .navbar-brand img{
     width: 170px;
     height: 55px;
@@ -66,9 +67,64 @@ nav .fa {
     color: #5555AA;
 }
 
+/* footer*/
+footer { 
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: linear-gradient(to bottom, #F0F1F4, #fff);
+}
+
+.footerLogo img {
+    width: 165px;
+    height: 110px;
+}
+
+.footerFriends img {
+    width: 190px;
+    height: 42px;
+}
+
+.contactDetails i {
+    color: #5555AA;
+    width: 20px; 
+}
+
+.contactDetails, .footerLocation {
+    display: flex;
+    align-items: center;
+}
+
+.footerSocialNetwork a {
+    color: #A9A9A9;
+} 
+
+.footerSocialNetwork a:active, .footerFriends {
+    color: #5555AA;
+}
+
+.footerSocialNetwork span {
+    font: 400 24px 'Satisfy', cursive;
+}
+
+.footerSocialNetwork .fa {
+    display: flex;
+    justify-content:center; 
+}
+
 @media only screen and (min-width: 769px) {
-    li a.active, li a:hover:not(.active) {
+    li a.active, li a:hover:not(.active) {  /*navigation*/
         background-color: #FF6600;
         color: white;
+    }
+     .footerSocialNetwork a:hover, a:active {  /*footer*/
+    color: #5555AA;
+    }
+    .footerPhoneNumber, .footerLocation, .footerClock  {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .contactDetails {
+        display:block;
     }
 }
