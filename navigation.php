@@ -2,7 +2,7 @@
    <div class="container">
       <div class="row">
          <div class="navbar navbar-expand-md col">
-            <a class="navbar-brand" href="http://tinyland.by"><img src="img/eva.png"></a>
+            <a class="navbar-brand" href="index.php"><img src="img/eva.png"></a>
             <button class="navbar-toggler navbar-toggler-right" type="button"  data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation"><i class="fa fa-bars" aria-hidden="true"></i>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">

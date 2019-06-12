@@ -20,7 +20,7 @@
 				<a href="https://www.instagram.com/evastinyland/" target="_blank"><span>Instagram</span><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
 			</div>
 			<div class="d-none col-md-4  d-md-flex align-items-center justify-content-end footerLogo">
-				<a href="http://tinyland.by"><img src="img/footerlogo.svg"></a>
+				<a href="index.php"><img src="img/footerlogo.svg"></a>
 			</div>
 		</div>
 	</div>
