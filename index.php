@@ -9,6 +9,24 @@
   <body>
       <?php require_once $_SERVER['DOCUMENT_ROOT'].'/header.php';?>
       <?php require_once $_SERVER['DOCUMENT_ROOT'].'/navigation.php';?>
+      <div class="slider">
+        <div class="paralaxBlue paralax" style="background: url(img/bg-paralax-Blue.jpg);">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-sm-12 text-center">
+                <h1>EVA'S TINYLAND - МАЛЕНЬКАЯ СТРАНА БОЛЬШИХ ЗНАНИЙ</h1>
+              </div>
+              <div class="col-12 col-sm-6 d-flex align-items-center">
+                <img src="img/cild.png" class="img-fluid">
+              </div>
+              <div class="col-sm-6 d-none d-sm-block">
+                <img src="img/lineWhite.svg">
+                <p class="text-left lead">Центр предлагает развивающие занятия для детей в возрасте от 1 года до 12 лет. Разнообразные программы, яркий дидактический материал и дружелюбная атмосфера для Вас и Ваших детей!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <?php require_once $_SERVER['DOCUMENT_ROOT'].'/map.php';?>
       <?php require_once $_SERVER['DOCUMENT_ROOT'].'/footer.php';?>
   </body>
