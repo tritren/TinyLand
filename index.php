@@ -16,7 +16,7 @@
               <div class="col-12 col-sm-12 text-center">
                 <h1>EVA'S TINYLAND - МАЛЕНЬКАЯ СТРАНА БОЛЬШИХ ЗНАНИЙ</h1>
               </div>
-              <div class="col-12 col-sm-6 d-flex align-items-center">
+              <div class="col-12 col-sm-6 d-flex align-items-end">
                 <img src="img/cild.png" class="img-fluid">
               </div>
               <div class="col-sm-6 d-none d-sm-block">
