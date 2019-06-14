@@ -111,6 +111,23 @@ footer {
     justify-content:center; 
 }
 
+/*Slider*/
+.backgroundSlider {
+	background-image: url(/img/bg-paralax-Blue.jpg);
+}
+
+.slider h1 {
+	margin-top: 20px;
+	font: 700 42px 'Amatic SC', cursive;
+	color: #fff;
+}
+
+.slider p {
+	margin-top: 30px;
+	color: #fff;
+	line-height: 1.5 ;
+}
+
 @media only screen and (min-width: 769px) {
     li a.active, li a:hover:not(.active) {  /*navigation*/
         background-color: #FF6600;
@@ -126,5 +143,14 @@ footer {
     }
     .contactDetails {
         display:block;
+    }
+}
+
+@media (max-width: 768px) {     /*Slider */
+    .slider h1 {
+        font-size: 1.8rem;
+    }
+    .slider p {
+        font-size: 0.9rem;
     }
 }
