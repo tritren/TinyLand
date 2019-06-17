@@ -112,7 +112,7 @@ footer {
 }
 
 /*Slider*/
-.backgroundSlider {
+.slider {
 	background-image: url(/img/bg-paralax-Blue.jpg);
 }
 
@@ -127,6 +127,55 @@ footer {
 	color: #fff;
 	line-height: 1.5 ;
 }
+
+/*teachers*/
+.teachers {
+    background-image: url(/img/bg-paralax-Orange.jpg) ;
+    padding: 20px 0;
+}
+
+.teachers h1 {
+    font: 700 42px 'Amatic SC', cursive;
+    color: #fff;
+    align-items: center;
+}
+
+.teacherInfo {
+    background-color: #fff;
+    flex-direction: column;
+    padding: 0 20px 20px 20px;
+}
+
+.teacherInfo h4 {
+     font: 400 36px 'Amatic SC', cursive;
+     color: #554E9E;
+     text-align: center;
+}
+
+.teacherInfo h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #e65c00;
+    font-size: 18px;
+}
+
+.teacherInfo img {
+    border-radius: 50%;
+    box-shadow: 2px 3px 5px rgba(0,0,0,.1);
+    border: 10px solid #fff;
+    height: 170px;
+    width: 170px;
+    position: relative;
+    top:-20px;
+}
+
+.teacherInfo p {
+    text-align: justify;
+    line-height:1.3;
+}
+ .titleBlock {
+    margin-bottom: 50px;
+ }
 
 @media only screen and (min-width: 769px) {
     li a.active, li a:hover:not(.active) {  /*navigation*/
@@ -154,3 +203,8 @@ footer {
         font-size: 0.9rem;
     }
 }
+ @media (max-width: 994px) {       /*teachers*/
+    .teacherInfo p, .teacherDescription h2 {
+         font-size: 0.9rem;
+    }
+ }
