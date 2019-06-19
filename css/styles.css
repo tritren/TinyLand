@@ -251,10 +251,8 @@ footer {
     }
 }
 
- @media (min-width: 575px) {  /*programs*/
+ @media (min-width: 576px) {  /*programs*/
     .programsInfo img {
-    border-radius: 50%;
-    box-shadow: 2px 3px 5px rgba(0,0,0,.1);
     border: 10px solid #fff;
     height: 220px;
     width: 220px;
