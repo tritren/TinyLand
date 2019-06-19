@@ -9,6 +9,7 @@
   <body>
       <?php require_once $_SERVER['DOCUMENT_ROOT'].'/header.php';?>
       <?php require_once $_SERVER['DOCUMENT_ROOT'].'/navigation.php';?>
+      <?php require_once $_SERVER['DOCUMENT_ROOT'].'/dbConnection.php';?>
       <section class="slider">
           <div class="container">
             <div class="row">
@@ -30,13 +31,7 @@
             <div class="titleBlock col-12 text-center">
               <h1>НАШИ ПЕДАГОГИ</h1><img src="img/lineWhite.svg">
             </div>
-            <div class="col-md-4 teacherContainer ">
-              <div class="teacherInfo d-flex align-items-center">
-                <img src="img/victoria.jpg"  class="img-fluid">
-                  <div class="teacherDescription"><h4>Виктория</h4><h2>Директор, преподаватель английского языка</h2><p class="d-none d-md-block">«Наши дети – это наша жизнь! Воспитание наших детей и их развитие – это то, чему мы должны уделить максимум нашего времени. Каждый ребенок уникален! В нем целый мир – маленький, но такой яркий и красивый! В нашем центре мы помогаем детям окунуться в увлекательный мир знаний. Мы делаем это с любовью и горящими глазами, чтобы желание наших учеников учить и узнавать новое с годами лишь приумножалось!»</p>
-                  </div>
-              </div>
-            </div>
+            <?php getTeachers();?>
           </div>
         </div>
       </section>
