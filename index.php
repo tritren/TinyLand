@@ -35,6 +35,7 @@
           </div>
         </div>
       </section>
+      <?php require_once $_SERVER['DOCUMENT_ROOT'].'/programs.php';?>
       <?php require_once $_SERVER['DOCUMENT_ROOT'].'/map.php';?>
       <?php require_once $_SERVER['DOCUMENT_ROOT'].'/footer.php';?>
   </body>
