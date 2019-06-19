@@ -12,7 +12,7 @@ $mysqli->query ("SET NAMES 'utf8'");
              	 <div class="teacherInfo d-flex align-items-center">
               	  <img src="img/'.$row['Image'].'"  class="img-fluid">
                	 <div class="teacherDescription">
-                	<h4>'.$row['Name'].'</h4></a>
+                	<h4>'.$row['Name'].'</h4>
                 	  <h2>'.$row['Position'].'</h2>
                	      <p class="d-none d-md-block">'.$row['Description'].'</p>
                	 </div>
