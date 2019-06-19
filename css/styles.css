@@ -144,6 +144,7 @@ footer {
     background-color: #fff;
     flex-direction: column;
     padding: 0 20px 20px 20px;
+    margin-bottom: 40px;
 }
 
 .teacherInfo h4 {
