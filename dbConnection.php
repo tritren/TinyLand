@@ -26,7 +26,23 @@ $mysqli->query ("SET NAMES 'utf8'");
     $result_set = $mysqli->query("SELECT * FROM `programs`");
 
     while (($row = $result_set->fetch_assoc() ) !=false) {
-      echo '<div class="col-6 col-sm-4 col-md-3 programsContainer">
+      echo '<div class="col-sm-4 col-md-3 d-none d-sm-block programsContainer">
+              <div class="programsInfo d-flex align-items-center">
+                <a href="teachers.php?id='.$row['Id'].'"><img src="img/'.$row['Image'].'"></a>
+                <div class="programsDescription">
+                 <p>'.$row['Summary'].'</p>
+                  <a href="teachers.php?id='.$row['Id'].'"><h4>Подробнее</h4></a>
+                </div>
+              </div>
+            </div>';
+    }
+}
+    function getTop6Programs() {
+    global $mysqli;
+    $result_set = $mysqli->query("SELECT * FROM `programs`LIMIT 2");
+
+    while (($row = $result_set->fetch_assoc() ) !=false) {
+      echo '<div class="col-6 col-sm-4 col-md-3 col-6 d-sm-none programsContainer">
               <div class="programsInfo d-flex align-items-center">
                 <a href="teachers.php?id='.$row['Id'].'"><img src="img/'.$row['Image'].'"></a>
                 <div class="programsDescription">
