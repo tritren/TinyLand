@@ -181,8 +181,8 @@ footer {
     margin-bottom: 50px;
  }
 
-/*programs*/
-.programs {
+/*programsList*/
+.programsList {
     border-top: 15px solid #fff;
     padding: 30px 0;
 }
@@ -239,7 +239,7 @@ div[language="english"] {
     background-size:contain;
 }
 
-@media (min-width: 576px) {  /*programs*/
+@media (min-width: 576px) {  /*programsList*/
     .programsInfo img {
         border-radius: 50%;
         box-shadow: 2px 3px 5px rgba(0,0,0,.1);

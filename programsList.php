@@ -1,4 +1,4 @@
-<section class="programs">
+<section class="programsList">
 	<div class="container">
 		<div class="row">
 			<div class="programsTitleBlock col-12 text-center">
