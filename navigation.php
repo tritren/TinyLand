@@ -11,7 +11,7 @@
                      <a class="nav-link font-weight-normal active" href="index.php">ГЛАВНАЯ<span class="sr-only"></span></a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link font-weight-normal" href="index.php">ПРОГРАММЫ</a>
+                     <a class="nav-link font-weight-normal" href="programs.php">ПРОГРАММЫ</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link font-weight-normal" href="index.php">РАСПИСАНИЕ</a>
