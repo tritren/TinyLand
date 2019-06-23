@@ -6,8 +6,8 @@
       		</div>
      		  <?php getPrograms();?>
       		  <?php getTop6Programs();?>
-      		<div class="col-12 d-sm-none allProgrammes">
-      			<a href="teachers.php"><h4>ПРОСМОТРЕТЬ ВСЕ</h4></a>
+      		<div class="col-12 d-sm-none allPrograms">
+      			<a href="progams.php">ПРОСМОТРЕТЬ ВСЕ</a>
       		</div>
 		</div>
 	</div>
