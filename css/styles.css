@@ -185,9 +185,6 @@ footer {
 .programs {
     border-top: 15px solid #fff;
     padding: 30px 0;
-    background: linear-gradient(to bottom, transparent, #fff 20%), url(/img/British_flag.jpg);
-    background-repeat: no-repeat;
-    background-size:contain;
 }
 
 .programsTitleBlock h1 { 
@@ -199,15 +196,15 @@ footer {
 
 .programsInfo {
     flex-direction: column;
-    padding: 0 10px 10px 10px;
 }
 
 .programsInfo img {
     border-radius: 50%;
     box-shadow: 2px 3px 5px rgba(0,0,0,.1);
     border: 5px solid #fff;
-    height: 160px;
-    width: 160px;
+    width:100%;
+    position: relative;
+    top: 4px;
 }
 
 .programsInfo h4 {
@@ -215,6 +212,7 @@ footer {
     color: #554E9E;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .programsInfo p {
@@ -235,13 +233,18 @@ footer {
     justify-content: center;
 }
 
+div[language="english"] {
+    background: linear-gradient(to bottom, transparent, #fff 20%), url(/img/British_flag.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
 @media (min-width: 576px) {  /*programs*/
     .programsInfo img {
         border-radius: 50%;
         box-shadow: 2px 3px 5px rgba(0,0,0,.1);
         border: 10px solid #fff;
-        height: 250px;
-        width: 250px;
+        width:100%; 
         margin-bottom: 20px;
     }
 }
