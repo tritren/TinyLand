@@ -240,15 +240,16 @@ div[language="english"] {
 }
 
 /*programs*/
-.programsPage h1 {
+.pageTitle {
     background-image: url(/img/bg-paralax-Blue.jpg);
-    color: #fff;
-    position: relative;
-    top:30px;
+    margin-bottom: 30px;
 }
 
-
-
+.pageTitle h1 {
+    color: #fff;
+    line-height: 80px;
+    margin: 0;
+}
 
 
 @media (min-width: 576px) {  /*programsList*/

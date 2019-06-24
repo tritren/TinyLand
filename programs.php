@@ -9,17 +9,21 @@
   <body>
       <?php require_once $_SERVER['DOCUMENT_ROOT'].'/header.php';?>
       <?php require_once $_SERVER['DOCUMENT_ROOT'].'/navigation.php';?>
-      <?php require_once $_SERVER['DOCUMENT_ROOT'].'/dbConnectionProgramsPage.php';?>
-      <section class="programsPage">
+      <?php require_once $_SERVER['DOCUMENT_ROOT'].'/dbConnection.php';?>
+      <section class="pageTitle">
           <div class="container">
             <div class="row">
-              <div class="col text-center">
+              <div class="col-12 text-left">
                 <h1>ПРОГРАММЫ</h1>
               </div>
             </div>
           </div>
       </section>
-      <?php require_once $_SERVER['DOCUMENT_ROOT'].'/programsPageList.php';?>
+      <div class="container">
+        <div class="row">
+          <?php getPrograms("col-6 col-sm-4 col-md-3", "1000");?>
+        </div>
+          </div>
       <?php require_once $_SERVER['DOCUMENT_ROOT'].'/footer.php';?>
   </body>
 </html>
