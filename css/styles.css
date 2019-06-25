@@ -202,6 +202,7 @@ footer {
     border-radius: 50%;
     box-shadow: 2px 3px 5px rgba(0,0,0,.1);
     border: 5px solid #fff;
+    margin-bottom: 10px;
     width:100%;
     position: relative;
     top: 4px;
@@ -239,14 +240,16 @@ div[language="english"] {
     background-size:contain;
 }
 
-@media (min-width: 576px) {  /*programsList*/
-    .programsInfo img {
-        border-radius: 50%;
-        box-shadow: 2px 3px 5px rgba(0,0,0,.1);
-        border: 10px solid #fff;
-        width:100%; 
-        margin-bottom: 20px;
-    }
+/*programs*/
+.pageTitle {
+    background-image: url(/img/bg-paralax-Blue.jpg);
+    margin-bottom: 30px;
+}
+
+.pageTitle h1 {
+    color: #fff;
+    line-height: 80px;
+    margin: 0;
 }
 
 @media (max-width: 768px) {     /*Slider */
@@ -276,8 +279,15 @@ div[language="english"] {
     }
 }
 
- @media (max-width: 994px) {       /*teachers*/
+@media (max-width: 992px) {       /*teachers*/
     .teacherInfo p, .teacherDescription h2 {
-         font-size: 0.9rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 993px) {  /*programsList*/
+    .programsInfo img {
+        border: 10px solid #fff;
+        margin-bottom: 10px;
     }
 }
