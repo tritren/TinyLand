@@ -24,7 +24,7 @@ $mysqli->query ("SET NAMES 'utf8'");
 
   function getPrograms($columns, $limit) {
     global $mysqli;
-    $result_set = $mysqli->query("SELECT `programs`.`Id`, `programs`.`Image`, `programs`.`Summary`, `languages`.`En_Name` FROM `programs` JOIN `languages` ON `programs`.`languageId` = `languages`.Id LIMIT ".$limit);
+    $result_set = $mysqli->query("SELECT `programs`.`Id`, `Image`, `Summary`, `En_Name` FROM `programs` JOIN `languages` ON `programs`.`languageId` = `languages`.Id LIMIT ".$limit);
 
     while (($row = $result_set->fetch_assoc() ) !=false) {
       echo '<div class="'.$columns.' programsContainer">
