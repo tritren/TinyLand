@@ -202,6 +202,7 @@ footer {
     border-radius: 50%;
     box-shadow: 2px 3px 5px rgba(0,0,0,.1);
     border: 5px solid #fff;
+    margin-bottom: 10px;
     width:100%;
     position: relative;
     top: 4px;
@@ -251,17 +252,6 @@ div[language="english"] {
     margin: 0;
 }
 
-
-@media (min-width: 576px) {  /*programsList*/
-    .programsInfo img {
-        border-radius: 50%;
-        box-shadow: 2px 3px 5px rgba(0,0,0,.1);
-        border: 10px solid #fff;
-        width:100%; 
-        margin-bottom: 20px;
-    }
-}
-
 @media (max-width: 768px) {     /*Slider */
     .slider h1 {
         font-size: 1.8rem;
@@ -289,8 +279,15 @@ div[language="english"] {
     }
 }
 
- @media (max-width: 994px) {       /*teachers*/
+@media (max-width: 992px) {       /*teachers*/
     .teacherInfo p, .teacherDescription h2 {
-         font-size: 0.9rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 993px) {  /*programsList*/
+    .programsInfo img {
+        border: 10px solid #fff;
+        margin-bottom: 10px;
     }
 }

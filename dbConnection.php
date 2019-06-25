@@ -24,15 +24,15 @@ $mysqli->query ("SET NAMES 'utf8'");
 
   function getPrograms($columns, $limit) {
     global $mysqli;
-    $result_set = $mysqli->query("SELECT * FROM `programs` JOIN `languages` ON `programs`.`languageId` = `languages`.Id LIMIT ".$limit);
+    $result_set = $mysqli->query("SELECT `programs`.`Id`, `Image`, `Summary`, `En_Name` FROM `programs` JOIN `languages` ON `programs`.`languageId` = `languages`.Id LIMIT ".$limit);
 
     while (($row = $result_set->fetch_assoc() ) !=false) {
       echo '<div class="'.$columns.' programsContainer">
               <div class="programsInfo d-flex align-items-center" language="'.$row['En_Name'].'">
-                <a href="progams.php?id='.$row['Id'].'"><img src="img/'.$row['Image'].'"></a>
+                <a href="programDetails.php?id='.$row['Id'].'"><img src="img/'.$row['Image'].'"></a>
                 <div class="programsDescription">
                  <p>'.$row['Summary'].'</p>
-                  <a href="progams.php?id='.$row['Id'].'"><h4>Подробнее</h4></a>
+                  <a href="programDetails.php?id='.$row['Id'].'"><h4>Подробнее</h4></a>
                 </div>
               </div>
             </div>';
