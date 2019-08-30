@@ -36,6 +36,13 @@
         </div>
       </section>
       <?php require_once $_SERVER['DOCUMENT_ROOT'].'/programsList.php';?>
+      <section class="inWidget">
+        <div class="container-fluid">
+          <div class="row">
+            <iframe src='/inwidget/index.php?adaptive=true' data-inwidget scrolling='no' frameborder='no' style='border:none;width:100%;height:100px;overflow:hidden;'></iframe>
+          </div>
+        </div>
+      </section>
       <?php require_once $_SERVER['DOCUMENT_ROOT'].'/map.php';?>
       <?php require_once $_SERVER['DOCUMENT_ROOT'].'/footer.php';?>
   </body>
