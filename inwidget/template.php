@@ -52,7 +52,6 @@ if(!$inWidget instanceof \inWidget\Core) {
 <body>
 <div id="widget" class="widget">
 	<a href="https://instagram.com/<?= $inWidget->data->username ?>" target="_blank" class="title">
-		<div class="icon">&nbsp;</div>
 		<div class="text"><?= $inWidget->lang['title']; ?></div>
 		<div class="clear">&nbsp;</div>
 	</a>

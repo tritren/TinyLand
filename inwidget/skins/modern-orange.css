@@ -24,30 +24,26 @@ img {
 		display:block;
 		height:33px;
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e26200+0,b74c00+100 */
-		background: #fff; /* Old browsers */
-		background: -moz-linear-gradient(top, #5555AA 0%, #fff 100%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(top, #5555AA 0%,#fff 100%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to bottom, #5555AA 0%,#fff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		background: -moz-linear-gradient(top, #5555AA -100%, #fff 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, #5555AA -100%,#fff 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, #5555AA -100%,#fff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5555AA', endColorstr='#b74c00',GradientType=0 ); /* IE6-9 */
 		text-decoration:none;
+
 	}
-	.widget .title .icon {
-		display:block;
-		float:right;
-		width:22px;
-		height:22px;
-		background: url(i/icon.png) no-repeat;
-		background-size: 22px 22px;
-		margin:10px 15px 0 0;
-	}
+
+	
 	.widget .title .text {
-		color: #463F92;
-		float:left;
-		height:25px;
-		overflow:hidden;
-		margin:10px 0 0 15px;
-		font-size:18px;
-		white-space:nowrap;
+    font-family: Satisfy,cursive;
+    font-weight: 400;
+    color: #463F92;
+    height: 35px;
+    overflow: hidden;
+    margin: 10px 0 0 15px;
+    font-size: 20px;
+    white-space: inherit;
+    text-align: center;
+    padding-top: 6px;
 	}
 	.widget .profile {
 		width:100%;
@@ -146,6 +142,20 @@ img {
 	color:red;
 	text-align:center;
 }
+	@media (max-width:400px) {
+	.widget .title .text {
+    font-family: Satisfy,cursive;
+    font-weight: 400;
+    color: #463F92;
+    height: 35px;
+    overflow: hidden;
+    margin: 10px 0 0 15px;
+    font-size: 20px;
+    white-space: inherit;
+    text-align: center;
+    padding-top: 0;
+	}
+	}
 @media (max-width: 240px) {
 	.widget .profile {
 		display:none;
@@ -154,10 +164,5 @@ img {
 @media (max-width: 180px) {
 	.widget .title .text {
 		display:none;
-	}
-	.widget .title .icon {
-		width:100%;
-		background-position:center top;
-		margin:5px 0 0 0;
 	}
 }

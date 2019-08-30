@@ -17,7 +17,7 @@
                      <a class="nav-link font-weight-normal" href="index.php">РАСПИСАНИЕ</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link font-weight-normal" href="index.php">НОВОСТИ</a>
+                     <a class="nav-link font-weight-normal" href="#instagram">НОВОСТИ</a>
                   </li>
                </ul>
             </div>

@@ -39,7 +39,7 @@
       <section class="inWidget">
         <div class="container-fluid">
           <div class="row">
-            <iframe src='/inwidget/index.php?adaptive=true' data-inwidget scrolling='no' frameborder='no' style='border:none;width:100%;height:100px;overflow:hidden;'></iframe>
+            <iframe id='instagram'src='/inwidget/index.php?adaptive=true' data-inwidget scrolling='no' frameborder='no' style='border:none;width:100%;height:100px;overflow:hidden;'></iframe>
           </div>
         </div>
       </section>
